@@ -39,8 +39,7 @@ li > a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px;
-    margin-top: 150px;
+    margin: 150px;
     gap: 50px;
 
     font-size: 20px;
@@ -60,12 +59,30 @@ li > a {
 
 /* Bagian Awal About Page */
 #about-container {
-    margin: 50px;
-    margin-top: 150px;
-    margin-left: 205px;
+    margin: 100px 250px;
     width: 800px;
 }
 
 #about-container > p {
     margin-top: 10px;
+
+    font-size: 18px;
 }
+/* Bagian Akhir About Page */
+
+/* Bagian Awal Skills Page */
+#skills-container {
+    margin: 100px 250px;
+    width: 800px;
+}
+
+#skills-container > p {
+    margin-top: 10px;
+
+    font-size: 18px;
+}
+
+#skills-container > ul {
+    margin-left: 20px;
+}
+/* Bagian Akhir Skills Page */
