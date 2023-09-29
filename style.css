@@ -34,6 +34,7 @@ li > a {
     color: hsla(214,32%,91%);
 }
 
+/* Bagian Awal Homepage */
 #home-container {
     display: flex;
     align-items: center;
@@ -54,4 +55,17 @@ li > a {
 #name {
     font-size: 50px;
     font-weight: 600;
+}
+/* Bagian Akhir Homepage */
+
+/* Bagian Awal About Page */
+#about-container {
+    margin: 50px;
+    margin-top: 150px;
+    margin-left: 205px;
+    width: 800px;
+}
+
+#about-container > p {
+    margin-top: 10px;
 }
