@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: hsla(221,39%,11%);
-    color: hsla(214,32%,91%);
+    background-color: hsla(221, 39%, 11%);
+    color: hsla(214, 32%, 91%);
 }
 
 #navbar {
@@ -24,14 +24,18 @@ body {
     gap: 20px;
 }
 
-li > a {
+li>a {
     text-decoration: none;
 
     font-weight: 500;
     font-size: 18px;
-    
+
     cursor: pointer;
-    color: hsla(214,32%,91%);
+    color: hsla(214, 32%, 91%);
+}
+
+.list-navbar li :hover {
+    color: cyan;
 }
 
 /* Bagian Awal Homepage */
@@ -55,6 +59,7 @@ li > a {
     font-size: 50px;
     font-weight: 600;
 }
+
 /* Bagian Akhir Homepage */
 
 /* Bagian Awal About Page */
@@ -63,11 +68,20 @@ li > a {
     width: 800px;
 }
 
-#about-container > p {
+#about-container div {
+    margin-top: 50px;
+}
+
+#about-container h1 {
+    color: cyan;
+}
+
+#about-container p {
     margin-top: 10px;
 
     font-size: 18px;
 }
+
 /* Bagian Akhir About Page */
 
 /* Bagian Awal Skills Page */
@@ -76,13 +90,54 @@ li > a {
     width: 800px;
 }
 
-#skills-container > p {
+#skills-container h1 {
+    color: cyan;
+}
+
+#skills-container p {
     margin-top: 10px;
 
     font-size: 18px;
 }
 
-#skills-container > ul {
+#skills-container>ul {
     margin-left: 20px;
+
+    font-size: 18px;
 }
+
 /* Bagian Akhir Skills Page */
+
+/* Bagian Awal Blog Page */
+#blog-container {
+    margin: 150px 0;
+}
+
+#blog-container>div a {
+    display: flex;
+
+}
+
+.blog-link {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 250px 0 250px;
+    padding: 20px;
+    text-decoration: none;
+
+    border-bottom: 1px solid rgb(121, 121, 121);
+    font-size: 16px;
+
+    color: hsla(214, 32%, 91%);
+}
+
+.blog-link:hover {
+    background-color: rgba(0, 0, 0, 0.555);
+    color: cyan;
+}
+
+.blog-link p:hover {
+    color: snow;
+}
+/* Bagian Akhir Blog Page */
