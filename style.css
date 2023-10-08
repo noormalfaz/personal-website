@@ -148,6 +148,7 @@ li>a {
     margin-top: 10px;
 
     font-size: 18px;
+    line-height: 1.7;
 }
 
 /* Bagian Blog HTML dan CSS */
@@ -167,6 +168,7 @@ li>a {
     margin-top: 10px;
 
     font-size: 18px;
+    line-height: 1.7;
 }
 
 #learn-container > p {
@@ -193,13 +195,16 @@ li>a {
 }
 
 #learn1-container h1 {
+    margin-bottom: -10px;
+
     color: cyan;
 }
 
 #learn1-container p {
-    margin-top: 10px;
+    margin-top: 20px;
 
     font-size: 18px;
+    line-height: 1.7;
 }
 
 .code-input {
@@ -219,5 +224,34 @@ li>a {
 }
 
 #learn1-container a:hover {
+    color: cyan;
+}
+
+/* Bagian Blog JavaScript */
+#learn2-container {
+    margin: 100px 250px;
+}
+
+#learn2-container div {
+    margin-top: 50px;
+}
+
+#learn2-container h1 {
+    margin-bottom: -10px;
+    color: cyan;
+}
+
+#learn2-container p {
+    margin-top: 20px;
+
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+#learn2-container a {
+    color: hsla(214, 32%, 91%);
+}
+
+#learn2-container a:hover {
     color: cyan;
 }
