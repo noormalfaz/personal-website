@@ -138,3 +138,22 @@ li>a {
     color: snow;
 }
 /* Bagian Akhir Blog Page */
+
+/* Bagian Blog Welcome */
+#welcome-container {
+    margin: 100px 250px;
+}
+
+#welcome-container div {
+    margin-top: 50px;
+}
+
+#welcome-container h1 {
+    color: cyan;
+}
+
+#welcome-container p {
+    margin-top: 10px;
+
+    font-size: 18px;
+}
