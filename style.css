@@ -133,10 +133,6 @@ li>a {
     background-color: rgba(0, 0, 0, 0.555);
     color: cyan;
 }
-
-.blog-link p:hover {
-    color: snow;
-}
 /* Bagian Akhir Blog Page */
 
 /* Bagian Blog Welcome */
@@ -156,4 +152,37 @@ li>a {
     margin-top: 10px;
 
     font-size: 18px;
+}
+
+/* Bagian Blog HTML dan CSS */
+#learn-container {
+    margin: 100px 250px;
+}
+
+#learn-container div {
+    margin-top: 50px;
+}
+
+#learn-container h1 {
+    color: cyan;
+}
+
+#learn-container p {
+    margin-top: 10px;
+
+    font-size: 18px;
+}
+
+#learn-container > p {
+    margin-top: 50px;
+
+    font-size: 18px;
+}
+
+#learn-container a {
+    color: hsla(214, 32%, 91%);
+}
+
+#learn-container a:hover {
+    color: cyan;
 }
