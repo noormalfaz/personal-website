@@ -12,7 +12,6 @@ body {
 
 #navbar {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     margin-top: 50px;
 }
@@ -20,7 +19,6 @@ body {
 .list-navbar {
     display: flex;
     list-style: none;
-    align-items: center;
     gap: 20px;
 }
 
@@ -41,10 +39,8 @@ li>a {
 /* Bagian Awal Homepage */
 #home-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 150px;
-    gap: 50px;
+    gap: 0 50px;
 
     font-size: 20px;
 }
@@ -184,5 +180,44 @@ li>a {
 }
 
 #learn-container a:hover {
+    color: cyan;
+}
+
+/* Bagian Blog PHP */
+#learn1-container {
+    margin: 100px 250px;
+}
+
+#learn1-container div {
+    margin-top: 50px;
+}
+
+#learn1-container h1 {
+    color: cyan;
+}
+
+#learn1-container p {
+    margin-top: 10px;
+
+    font-size: 18px;
+}
+
+.code-input {
+    margin: 10px 0;
+    width: 623px;
+    height: 494px;
+}
+
+.code-hasil {
+    margin: 10px 0;
+    width: 433px;
+    height: 566px;
+}
+
+#learn1-container a {
+    color: hsla(214, 32%, 91%);
+}
+
+#learn1-container a:hover {
     color: cyan;
 }
