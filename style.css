@@ -65,7 +65,6 @@ li>a {
 /* Bagian Awal About Page */
 #about-container {
     margin: 100px 250px;
-    width: 800px;
 }
 
 #about-container div {
@@ -87,7 +86,6 @@ li>a {
 /* Bagian Awal Skills Page */
 #skills-container {
     margin: 100px 250px;
-    width: 800px;
 }
 
 #skills-container h1 {
@@ -110,7 +108,7 @@ li>a {
 
 /* Bagian Awal Blog Page */
 #blog-container {
-    margin: 150px 0;
+    margin: 100px 250px;
 }
 
 #blog-container>div a {
@@ -122,7 +120,6 @@ li>a {
     justify-content: space-between;
     display: flex;
     align-items: flex-end;
-    margin: 0 250px 0 250px;
     padding: 20px;
     text-decoration: none;
 
